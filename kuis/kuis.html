@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: url("download.jpeg") no-repeat center center fixed;
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        color: white;
+        text-align: center;
+      }
+      .nav {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+      .nav-links {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+      .nav-links a {
+        text-decoration: none;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin-left: 5px;
+      }
+      .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+      .container img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 10px;
+        background: rgba(255, 255, 255, 0.3);
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        transition: 0.3s;
+      }
+      .button:hover {
+        background: rgba(255, 255, 255, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">Biodata</div>
+    <div class="nav-links">
+      <a>Home</a>
+      <a>Jadwal</a>
+    </div>
+    <div class="container">
+      <img src="download.jpg" alt="Profile Picture" />
+      <h3>Hafidz Pramana Hidayat</h3>
+      <p>NPM: 2317051087</p>
+      <p>Jurusan: Ilmu Komputer</p>
+      <p>Universitas Lampung</p>
+      <a href="kuis_2.html" class="button">Lihat Jadwal</a>
+    </div>
+  </body>
+</html>
